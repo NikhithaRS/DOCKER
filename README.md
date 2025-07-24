@@ -1,13 +1,26 @@
-**Continuous Deployment with Docker Hub & GitHub Actions**
+<h1 align="center">🚀 Continuous Deployment with Docker Hub & GitHub Actions</h1>
 
-This repository demonstrates a complete CI/CD workflow using Docker, Docker Hub, and GitHub Actions to automate the build and deployment of a containerized application.
+ 
 
-📦 Project Overview
 
-This project sets up a simple containerized web application and automates the following steps:
+## 📦 About the Project
 
-Build a Docker image when changes are pushed to GitHub.
+This project demonstrates a simple yet effective **Continuous Deployment (CD)** pipeline using:
 
-Push the image to Docker Hub.
+- 🐳 **Docker Hub** for container image management
+- ⚙️ **GitHub Actions** for workflow automation
+- 🖥️ **SSH Deployment** to a remote server
 
-Optionally, pull and run the latest image on a remote server.
+It walks you through building, testing, pushing, and deploying a Dockerized web app whenever you push code to the main branch.
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend / API**: Python Flask (or Node.js Express)
+- **Containerization**: Docker
+- **CI/CD Automation**: GitHub Actions
+- **Registry**: Docker Hub
+- **Deployment Target**: Linux server (via SSH)
+
+
